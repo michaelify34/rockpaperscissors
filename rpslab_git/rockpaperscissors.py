@@ -28,4 +28,5 @@ elif choice == "scissors":
         print("You win!")
     elif opponentchoice == "scissors":
         print("Tie")
-
+else:
+    print("Please type rock, paper, or scissors.")
