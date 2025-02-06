@@ -2,6 +2,9 @@
 import random as rand
 
 choice = input("Which do you choose? \n1. rock\n2. paper\n3. scissors\n")
+if not choice == "rock":
+    raise ValueError("You must choose rock, paper, or scissors")
+
 
 opponentchoice = rand.choice(["rock", "paper", "scissors"])
 print(opponentchoice)
