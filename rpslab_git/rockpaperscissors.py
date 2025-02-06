@@ -2,12 +2,7 @@
 import random as rand
 
 choice = input("Which do you choose? \n1. rock\n2. paper\n3. scissors\n")
-if not choice == "rock":
-    raise ValueError("Please type rock, paper, or scissors")
-elif not choice == "paper":
-    raise ValueError("Please type rock, paper, or scissors")
-elif not choice == "scissors":
-    raise ValueError("Please type rock, paper, or scissors")
+
 
 opponentchoice = rand.choice(["rock", "paper", "scissors"])
 print(opponentchoice)
