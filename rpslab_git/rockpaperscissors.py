@@ -13,3 +13,10 @@ if choice == "rock":
         print("You lose!")
     elif opponentchoice == "scissors":
         print("You win!")
+elif choice == "paper":
+    if opponentchoice == "rock":
+        print("You win!")
+    elif opponentchoice == "paper":
+        print("Tie")
+    elif opponentchoice == "scissors":
+        print("You lose!")
